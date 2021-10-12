@@ -1,6 +1,3 @@
-**SQL Solutions for HackerRank**
+# SQL Practices 
 
-| Subdomain       |   Challenge    |   Difficulty  | Solution  |
-| :-------------: | :------------: | :-----------: | :--------:|
-|  Advanced Join  |   Interviews   |    Hard       | [Solutions](https://github.com/HangLeVN/Learning-Space/blob/main/SQL/HarkerRank/Advanced%20Join/Interviews.sql)|
-|                 |        |      |
+Challenging day by day to upgrade my skills!!
