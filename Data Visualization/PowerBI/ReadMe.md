@@ -20,3 +20,4 @@ I also did data cleaning and transforming in Power Query
 
 ![This is an image](https://github.com/HangLeVN/Learning-Space/blob/main/Data%20Visualization/PowerBI/model.jpg)
 
+You could view the [Interacted Report here](https://community.powerbi.com/t5/Data-Stories-Gallery/Sale-Analysis-for-AdventureWorks/m-p/2189387)
