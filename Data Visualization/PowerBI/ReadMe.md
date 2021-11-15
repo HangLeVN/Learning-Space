@@ -18,3 +18,5 @@ I also did data cleaning and transforming in Power Query
 
 **Data Model**
 
+![This is an image](https://github.com/HangLeVN/Learning-Space/blob/main/Data%20Visualization/PowerBI/model.jpg)
+
