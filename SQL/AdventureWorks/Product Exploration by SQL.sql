@@ -34,3 +34,19 @@ FROM [AdventureWorks2019].[Production].[Product] P
 	ON S.ProductCategoryID = c.ProductCategoryID
 
 ORDER BY 4;
+
+--- Get 30% WorkOrders having ScrapRate > 3%
+SELECT top 30 PERCENT W.WorkOrderID,
+                      P.Name AS ProductName,
+                      S.Name AS SrapReason,
+                      W.OrderQty,
+                      W.ScrappedQty,         
+                      ScrapRate = W.ScrappedQty*1.0/W.OrderQty,
+					  ---convert(float,a.ScrappedQty)/a.OrderQty
+					  W.DueDate
+FROM Production.WorkOrder W
+left JOIN Production.Product P ON W.ProductID = P.ProductID
+JOIN Production.ScrapReason S ON W.ScrapReasonID = S.ScrapReasonID
+WHERE W.ScrappedQty*1.0/W.OrderQty > 0.03
+ORDER BY DueDate DESC
+
